@@ -1,0 +1,4 @@
+auth:
+  url: http://localhost:8080
+  endpoint: /auth/validation
+
