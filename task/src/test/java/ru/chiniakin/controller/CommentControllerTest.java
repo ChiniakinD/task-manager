@@ -21,7 +21,6 @@ import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 import org.testcontainers.shaded.com.fasterxml.jackson.databind.ObjectMapper;
-import ru.chiniakin.BaseTest;
 import ru.chiniakin.entity.Comment;
 import ru.chiniakin.entity.Task;
 import ru.chiniakin.entity.User;

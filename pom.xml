@@ -17,7 +17,6 @@
 
     <modules>
         <module>dependency_bom</module>
-        <module>task</module>
     </modules>
 
 </project>

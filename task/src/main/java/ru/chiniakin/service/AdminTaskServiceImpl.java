@@ -23,7 +23,6 @@ import ru.chiniakin.model.request.UpdateTaskRequest;
 import ru.chiniakin.repository.TaskRepository;
 import ru.chiniakin.repository.UserRepository;
 import ru.chiniakin.service.interfaces.AdminTaskService;
-import ru.chiniakin.service.interfaces.UserTaskService;
 import ru.chiniakin.service.specification.AdminTaskSpecification;
 import ru.chiniakin.util.RequestAttributeUtil;
 

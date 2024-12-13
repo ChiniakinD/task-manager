@@ -14,7 +14,6 @@ import org.springframework.test.context.DynamicPropertySource;
 import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
-import ru.chiniakin.BaseTest;
 import ru.chiniakin.entity.Comment;
 import ru.chiniakin.entity.Task;
 import ru.chiniakin.entity.User;
@@ -94,7 +93,6 @@ class CommentServiceTest {
         userLogin = "user" + UUID.randomUUID();
         UUID userId = UUID.randomUUID();
         String password = "secure_password";
-        BigDecimal rating = new BigDecimal(0);
         user = new User()
                 .setId(userId)
                 .setLogin(userLogin)
